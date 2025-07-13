@@ -1,0 +1,24 @@
+{
+  "name": "RouteMyPath",
+  "id": "1514168412744601967",
+  "api": "1.0.0",
+  "main": "code.js",
+  "capabilities": [
+    "textreview"
+  ],
+  "enableProposedApi": false,
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma"
+  ],
+  "ui": "ui.html",
+  "networkAccess": {
+    "allowedDomains": [
+      "*"
+    ],
+    "reasoning": "需要访问网络以支持文件上传和解析功能"
+  },
+  "permissions": [
+    "currentuser"
+  ]
+}
